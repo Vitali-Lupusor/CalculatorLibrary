@@ -1,6 +1,4 @@
-"""
-Unit tests for the calculator library
-"""
+"""Unit tests for the calculator library."""
 
 # Import local modules
 import calculator
@@ -18,8 +16,9 @@ class TestCalculator:
         assert 2 == calculator.subtract(4, 2)
 
     def test_multiplication(self):
+        """TODO."""
         assert 100 == calculator.multiply(10, 10)
 
     def test_division(self):
         """TODO."""
-        assert 10 == calculator.division(100, 10)
+        assert 10 == calculator.divide(100, 10)

@@ -1,23 +1,21 @@
-"""
-Calculator library containing basic math operations.
-"""
-
-# Import standard modules
-from typing import TypeVar
-
-Numerical = TypeVar('Numerical', int, float)
+"""Calculator library containing basic math operations."""
 
 
-def add(first_term: Numerical, second_term: Numerical) -> Numerical:
+def add(first_term: float, second_term: float) -> float:
     """TODO."""
     return first_term + second_term
 
 
-def subtract(first_term: Numerical, second_term: Numerical) -> Numerical:
+def subtract(first_term: float, second_term: float) -> float:
     """TODO."""
     return first_term - second_term
 
 
-def multiply(first_term: Numerical, second_term: Numerical) -> Numerical:
+def multiply(first_term: float, second_term: float) -> float:
     """TODO."""
     return first_term * second_term
+
+
+def divide(first_term: float, second_term: float) -> float:
+    """TODO."""
+    return first_term / second_term
